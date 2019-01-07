@@ -35,7 +35,7 @@ def play(my_songs)
   if my_songs.keys.include?(response)
     system "open #filename}"
   else 
-    puts ""
+    puts "Invalid input, please try again"
   #this method is slightly different!
   #you should still ask the user for input and collect their song choice
   #this time, only allow user's to input a song name
