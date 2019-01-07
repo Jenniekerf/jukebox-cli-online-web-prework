@@ -13,10 +13,12 @@
 # }
 
 def help
-  
-
-end
-
+ puts "I accept the following commands:
+  - help : displays this help message
+  - list : displays a list of songs you can displays
+  - play : lets you choose a song to play
+  - exit : exits this program"
+end 
 
 
 def list(my_songs)
