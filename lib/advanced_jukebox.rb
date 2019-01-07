@@ -32,7 +32,7 @@ def play(my_songs)
   
   puts "Please enter a song name:"
   response = gets.chomp
-  if my_songs.keys.include?(response)
+  if my_songs.has_key?(response)
     system "open #filename}"
   else 
     puts "Invalid input, please try again"
